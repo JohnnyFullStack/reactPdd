@@ -1,0 +1,38 @@
+
+.cate-list{
+  height:3.6rem;
+  margin-top:.1rem;
+  ul{
+    display:flex;
+    li{
+      width:2.5rem;
+      img{
+        display: block;
+        width:98%;
+        height:2.4rem;
+        margin:auto;
+      }
+      .describe{
+        overflow: hidden;
+        height:.6rem;
+        margin:.1rem 0;
+        line-height:.34rem;
+        color:#6c6c6c;
+      }
+      .price{
+        display:flex;
+        justify-content: center;
+        span{
+          display:block;
+          margin:0 .1rem;
+          font-size:.26rem;
+          color:red;
+        }
+        .dis-price{
+          font-size:.2rem;
+          color:#6c6c6c;
+        }
+      }
+    }
+  }
+}

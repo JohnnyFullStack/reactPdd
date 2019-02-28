@@ -1,0 +1,71 @@
+.goods{
+  background-color: #fff;
+  .container{
+    padding:0 .2rem;
+    .info{
+      img{
+        display:block;
+        width:70%;
+        height:5rem;
+        margin:.2rem auto .2rem;
+      }
+      p{
+        font-size:.3rem;
+        color:#686868;
+      }
+      .money{
+        display:flex;
+        margin:.2rem 0;
+        font-size:.3rem;
+        color:#6c6c6c;
+        .price{
+          display:block;
+          margin-right:.2rem;
+          color:red;
+        }
+      }
+    }
+    .add-to{
+      display:flex;
+      margin:.3rem 0;
+      p{
+        line-height:.6rem;
+        margin-right:.2rem;
+        font-size:.3rem;
+      }
+      .number{
+        display:flex;
+        span{
+          display:block;
+          width:.6rem;
+          height:.6rem;
+          margin-right:.1rem;
+          line-height:.6rem;
+          background-color:#ddd;
+          font-size:.3rem;
+          text-align:center;
+          color:#111;
+        }
+      }
+    }
+    .shopping{
+      display:flex;
+      margin-top:.4rem;
+      justify-content: space-between;
+      span{
+        display: block;
+        width:55%;
+        height:1rem;
+        line-height:1rem;
+        font-size:.35rem;
+        text-align:center;
+      }
+      .cart-buy{
+        background-color:red;
+      }
+      .shop-buy{
+        background-color: orange;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.foot{
+  z-index:999;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:1rem;
+  border-top:1px solid #ccc;
+  background-color:#fff;
+  ul{
+    display:flex;
+    justify-content: space-around;
+    li{
+      flex:1;
+      text-align:center;
+      a{
+        .icon{
+          display:block;
+          margin:.1rem auto 0;
+          font-size:.5rem;
+        }
+        .text{
+          font-size:.24rem;
+        }
+      }
+    }
+    .active{
+      color:orange;
+    }
+  }
+  .cart{
+    position:relative;
+    .num{
+      position:absolute;
+      top:-.1rem;
+      right:.52rem;
+      font-size:.28rem;
+      color:red;
+    }
+  }
+}

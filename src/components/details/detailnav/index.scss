@@ -1,0 +1,20 @@
+.nav{
+  overflow: auto;
+  width:100vw;
+  height:.8rem;
+  background-color:#ed435b;
+  ul{
+    width:195%;
+    li{
+      float:left;
+      width:1.6rem;
+      line-height:.8rem;
+      font-size:.26rem;
+      text-align:center;
+      color:#fff;
+    }
+    .on{
+      background-color:rgba(0,0,0,.2);
+    }
+  }
+}

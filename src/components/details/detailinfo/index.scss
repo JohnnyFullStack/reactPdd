@@ -1,0 +1,25 @@
+.info{
+  background-color:#fff;
+  img{
+    display:block;
+    width:100%;
+    height:3rem;
+  }
+  .info-con{
+    padding:.2rem .4rem .2rem;
+    h4{
+      padding:.2rem 0;
+      font-size:.3rem;
+      font-weight: 500;
+      color:#111;
+    }
+    .info-text{
+      padding:.1rem 0;
+      line-height:.46rem;
+      border-top:1px solid #ddd;
+      border-bottom:1px solid #ddd;
+      font-size:.265rem;
+      color:#686868;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.head{
+  z-index:999;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  .location{
+    height:.6rem;
+    line-height:.6rem;
+    background-color:#f3f3f3;
+    font-size:.25rem;
+    text-align:center;
+    color:#6c6c6c;
+  }
+  .recommend{
+    display:flex;
+    height:.8rem;
+    background-color: #f02;
+    color:#fff;
+    justify-content: space-around;
+    align-items: center;
+    img{
+      display:block;
+      width:1.8rem;
+      height:.6rem;
+    }
+    .goods-buy{
+      width:1.6rem;
+      height:.6rem;
+      line-height:.6rem;
+      border-radius: .05rem;
+      background-color:#fff;
+      font-size:.3rem;
+      text-align:center;
+      color:#f02;
+    }
+  }
+}
